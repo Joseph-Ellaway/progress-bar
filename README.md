@@ -1,6 +1,6 @@
 # Progress bar for terminal in Python
 
-Included in `progress.py` is the `progress_bar` object. Create an instance of the `progress_bar()`, parsing in the maximum value your process should reach (not necessarily the same as bar length, which can also be specified using the `bar_size=` optionalargument). 
+Included in `progress.py` is the `progress_bar` object. Create an instance of the `progress_bar()`, parsing in the maximum value your process should reach (not necessarily the same as bar length, which can also be specified using the `bar_size=` optional argument). 
 
 Each call of `progress_bar().update()` increments the progress bar by one towards the maximum specified. 
 
