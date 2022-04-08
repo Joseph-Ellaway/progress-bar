@@ -19,7 +19,7 @@ for i in range(minimum, maximum):
     # Do something
     time.sleep(0.1)
 
-    # Update progress by one towards maximum
+    # Update progress
     my_progress.update()
 ```
 
